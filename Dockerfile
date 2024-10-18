@@ -33,5 +33,6 @@ EOF
 # Install pip packages
 run <<EOF
    pip install keyring &&
-   pip install keyrings.google-artifactregistry-auth
+   pip install keyrings.google-artifactregistry-auth &&
+   pip install jinja2
 EOF

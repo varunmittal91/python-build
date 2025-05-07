@@ -3,7 +3,7 @@ from python:3.11.10-slim-bookworm
 
 # Set environment variables
 env PYTHONUNBUFFERED=1 \
-    POETRY_VERSION=1.8.3 \
+    POETRY_VERSION=2.0.1 \
     GCLOUD_SDK_VERSION=467.0.0
 
 # Install dependencies
